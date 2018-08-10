@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fillViewport="true">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.neerajagrawal.transhub.SignupActivity"
+
+        android:background="#f7fdff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:id="@+id/relativeLayout2">
+
+            <ImageButton
+                android:id="@+id/profileImage"
+                android:layout_width="100dp"
+                android:layout_height="94dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@android:drawable/ic_menu_camera"
+                tools:layout_constraintLeft_creator="0"
+                tools:layout_constraintRight_creator="0"
+                tools:layout_constraintTop_creator="0" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout2"
+            android:id="@+id/relativeLayout3">
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Personal Information"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/relativeLayout3"
+            android:layout_marginLeft="61dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:hint="First Name*"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/firstName"
+            android:layout_alignStart="@+id/firstName"
+            android:layout_below="@+id/firstName"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/contactNO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lastName"
+            android:layout_alignStart="@+id/lastName"
+            android:layout_below="@+id/lastName"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Contact Number*"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/contactNO"
+
+            android:text="Login Details" />
+
+        <EditText
+            android:id="@+id/eMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/contactNO"
+            android:layout_alignStart="@+id/contactNO"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:hint="Email Id*"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Password*"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/eMail"
+            android:layout_alignLeft="@+id/eMail"
+            android:layout_alignStart="@+id/eMail" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:background="#000000"
+            android:onClick="onClick"
+            android:text="Create Profile"
+            android:textColor="#f7fdff"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_alignStart="@+id/password"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0705"
+            android:textSize="15dp"
+            android:text="* fields are compulsory" />
+
+
+    </RelativeLayout>
+</ScrollView>

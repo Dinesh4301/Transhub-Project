@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:text="WELCOME TO TRANSHUB"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:textColor="@color/toolbar"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place for all Transporting Solutions"
+                android:textSize="17dp"
+                android:id="@+id/textView4"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintVertical_bias="0.125"
+                android:layout_below="@+id/textView5"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:textAllCaps="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT us :-"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.217"
+                android:layout_marginTop="24dp"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. TRANSHUB is the place where you can hire a transporting vehicle according to your need.\n\n2. This application will help you to reduce your work to find a vehicle in time of rush. \n\n3. We provide you with the complete range of vehicles for your small as well as big goods transpotation. \n\n4. Now your transportaion vehicle is just plenty clicks away form your place. \n\n5. To book a transportation click on 'Book a Transport' tab. \n\n6. After that just fill the required details to book.\n\n7. Click on 'BOOK' button and now you are good to go, just read the terms and conditions."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.446"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms and Conditions..."
+                android:textColor="#ff0207"
+                android:onClick="onClick"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.767"
+                android:layout_below="@+id/textView10"
+                android:layout_marginTop="23dp" />
+
+            <Button
+                android:id="@+id/recentOrders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent Orders"
+                android:textSize="24sp"
+                android:background="#00ffffff"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.916"
+                app:layout_constraintHorizontal_bias="0.973"
+                android:layout_below="@+id/bookTransport"
+                android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bookTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOK A TRANSPORT"
+        android:textSize="24sp"
+        android:background="#00ffffff"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintVertical_bias="0.916"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"/>
+
+
+        </RelativeLayout>
+
+</ScrollView>
+
+

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Transhub</string>
+    <string name="google_android_map_api_key">AIzaSyBbHsTuEOT9VOYkboq61BvQ2VLjrlvOe7w</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

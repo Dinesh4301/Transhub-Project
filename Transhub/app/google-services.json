@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "473431944347",
+    "firebase_url": "https://transhub-87bab.firebaseio.com",
+    "project_id": "transhub-87bab",
+    "storage_bucket": "transhub-87bab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473431944347:android:b1e421ca78068d4f",
+        "android_client_info": {
+          "package_name": "com.example.neerajagrawal.transhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473431944347-h9pugnfb5h1mb49iuu5ebn055ilfcedq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.neerajagrawal.transhub",
+            "certificate_hash": "d29f7f59b9cd72c127f5edb46d56149d2f916b01"
+          }
+        },
+        {
+          "client_id": "473431944347-ih6nhsrfggosul2nu10u9hvrekuv6bvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW8kTHNDrFPlSkTiiNZLW-jpwINu2dZbs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473431944347-ih6nhsrfggosul2nu10u9hvrekuv6bvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
